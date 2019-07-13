@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo hostname'
+                sh 'hostname'
                 sh 'npm install'
             }
         }
